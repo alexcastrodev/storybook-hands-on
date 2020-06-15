@@ -12,6 +12,7 @@ export const CardBoxRed = () => ({
 })
 ```
 <img src="images/cardbox1.png" alt="cardbox"  />
+
 ```javascript
 export const CardBoxBlue = () => ({
     components: {CardBox},
