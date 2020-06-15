@@ -11,7 +11,7 @@ export const CardBoxRed = () => ({
     }
 })
 ```
-<img src="images/cardbox1.png" alt="cardbox" width="500" height="600">
+<img src="images/cardbox1.png" alt="cardbox"  />
 ```javascript
 export const CardBoxBlue = () => ({
     components: {CardBox},
@@ -23,7 +23,7 @@ export const CardBoxBlue = () => ({
     }
 })
 ```
-<img src="images/cardbox2.png" alt="cardbox" width="500" height="600">
+<img src="images/cardbox2.png" alt="cardbox" />
 
 
 ## Project setup
