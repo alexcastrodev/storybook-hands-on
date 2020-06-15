@@ -1,4 +1,30 @@
 # storybook-hands-on
+## Examples:
+```javascript
+export const CardBoxRed = () => ({
+    components: {CardBox},
+    template: "<card-box style='color: red' :msg='msg'/>",
+    props: {
+        msg: {
+          default: text('text','Hello World')
+        },
+    }
+})
+```
+<img src="images/cardbox1.png" alt="cardbox" width="500" height="600">
+```javascript
+export const CardBoxBlue = () => ({
+    components: {CardBox},
+    template: "<card-box style='color: blue' :msg='msg'/>",
+    props: {
+        msg: {
+          default: text('text','Hello World')
+        },
+    }
+})
+```
+<img src="images/cardbox2.png" alt="cardbox" width="500" height="600">
+
 
 ## Project setup
 ```
@@ -14,11 +40,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -9,9 +9,19 @@ export default {
   };
 
   
-export const CardBoxComponent = () => ({
+export const CardBoxRed = () => ({
     components: {CardBox},
-    template: "<card-box :msg='msg'/>",
+    template: "<card-box style='color: red' :msg='msg'/>",
+    props: {
+        msg: {
+          default: text('text','Hello World')
+        },
+    }
+})
+
+export const CardBoxBlue = () => ({
+    components: {CardBox},
+    template: "<card-box style='color: blue' :msg='msg'/>",
     props: {
         msg: {
           default: text('text','Hello World')
